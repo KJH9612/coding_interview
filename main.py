@@ -1,16 +1,9 @@
-# This is a sample Python script.
+def solution(maps):
+    answer = 0
+    n_len = len(maps)
+    m_len = len(maps[0])
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    if not maps[n_len - 2][m_len - 1] or not maps[n_len - 1][m_len - 2]:
+        return -1
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    return answer
