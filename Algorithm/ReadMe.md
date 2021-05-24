@@ -2,6 +2,7 @@
 
 ## 검색 알고리즘
 * [선형검색](./Search_Algorithm/linear_search.py)
+* [이진검색](./Search_Algorithm/binary_search.py)
 
 ## 비선형 자료구조
 * [BFS](./Graph)
