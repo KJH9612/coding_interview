@@ -9,7 +9,7 @@ def solution(A, B):
 
     # zip 관련 정보
     # https://www.daleseo.com/python-zip/
-    return sum([i[0] * i[1] for i in zip(A, B)])
+    return sum([a * b for a, b in zip(A, B)])
 
 
 print(solution([1, 4, 2], [5, 4, 4]))
