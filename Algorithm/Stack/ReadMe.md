@@ -7,8 +7,10 @@ push : 스택에 데이터를 넣는 작업 \
 pop : 스택에서 데이터를 꺼내는 작업 \
 top : 가장 마지막에 들어온 값을 가르킴 \
 bottom : 가장 처음에 들어온 값을 가르킴\
+<details>
+    <summary>Fixed Stack</summary>
 
-### 구현 내용
+### [Fixed Stack](./fixed_stack) 구현 내용
 #### 변수
 > `stk` : 스택으로 사용할 변수명 \
 > `capacity` : 스택의 최대 크기 len(stk)랑 같음 \
@@ -26,3 +28,9 @@ bottom : 가장 처음에 들어온 값을 가르킴\
 > `__contains__` :
 > `__len__` : 스택에 들어있는 데이터의 개수를 반환 \
 > `__init__` : capacity 만큼의 크기를 가진 리스트형 스택 skt 를 생성
+</details>
+
+<details>
+    <summary>Deque Stack</summary>
+Hello
+</details>
