@@ -1,5 +1,5 @@
 # 스택
-![Alt text](http://lh4.ggpht.com/-yPC1y5pyEK8/UI5YdsZz_oI/AAAAAAAAA1Y/zSzytUOxVWA/clip_image001_thumb%25255B1%25255D.gif?imgmax=800)
+![StackImage](http://lh4.ggpht.com/-yPC1y5pyEK8/UI5YdsZz_oI/AAAAAAAAA1Y/zSzytUOxVWA/clip_image001_thumb%25255B1%25255D.gif?imgmax=800)
 
 데이터 입출력 순서 : 후입선출(LIFO)
 
