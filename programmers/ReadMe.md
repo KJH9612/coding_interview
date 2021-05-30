@@ -10,6 +10,7 @@
 * [최소값 만들기](./level2/course_30_lessons_12941.py)
 * [땅따먹기](./level2/course_30_lessons_12913.py)
 * [다음 큰 숫자](./level2/course_30_lessons_12911.py)
+* [짝지어 제거하기](./level2/course_30_lessons_12973.py)
 
 ### Level 3
 
