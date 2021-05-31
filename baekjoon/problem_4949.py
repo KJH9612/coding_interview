@@ -5,9 +5,21 @@
 
 import sys
 
+is_correct = True
+
+
+def cor_chk(p_lists: list, p_char: str) -> bool:
+    length = len(p_lists)
+
+    if length <= 0 or p_lists[length - 1] != '[' if p_char == ']' else '(':
+        return False
+    return True
+
+
 while True:
     value = sys.stdin.readline().rstrip()
     lists = []
+    is_correct = True
 
     if value == '.':
         break
@@ -15,12 +27,13 @@ while True:
     for i in range(len(value)):
         if value[i] == '[' or value[i] == '(':
             lists.append(value[i])
-
         elif value[i] == ']' or value[i] == ')':
-            if len(lists) and lists[len(lists) - 1] != value[i]:
-                print('no')
-                break
-            elif len(lists) and lists[len(lists) - 1] == value[i]:
+            if cor_chk(lists, value[i]) is not False:
                 lists.pop()
+            else:
+                is_correct = False
 
-    print('no' if len(lists) else 'yes')
+        if is_correct is False:
+            break
+
+    print('no' if is_correct is False or len(lists) else 'yes')
