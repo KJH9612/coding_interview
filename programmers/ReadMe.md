@@ -11,6 +11,7 @@
 * [땅따먹기](./level2/course_30_lessons_12913.py)
 * [다음 큰 숫자](./level2/course_30_lessons_12911.py)
 * [짝지어 제거하기](./level2/course_30_lessons_12973.py)
+* [최대값과 최솟값](./level2/course_30_lessons_12939.py)
 
 ### Level 3
 
