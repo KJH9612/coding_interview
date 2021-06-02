@@ -11,7 +11,7 @@ is_correct = True
 def cor_chk(p_lists: list, p_char: str) -> bool:
     length = len(p_lists)
 
-    if length <= 0 or p_lists[length - 1] != ('[' if p_char == ']' else '('):
+    if length <= 0 or p_lists[length - 1] != '[' if p_char == ']' else '(':
         return False
     return True
 
@@ -20,6 +20,7 @@ while True:
     value = sys.stdin.readline().rstrip()
     lists = []
     is_correct = True
+
     if value == '.':
         break
 
