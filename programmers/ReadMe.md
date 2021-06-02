@@ -14,7 +14,7 @@
 * [최대값과 최솟값](./level2/course_30_lessons_12939.py)
 
 ### Level 3
-
+* [이중우선순위큐](./level3/course_30_lessons_42628.py)
 ### Level 4
 
 ### Level 5
