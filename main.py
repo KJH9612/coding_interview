@@ -1,9 +1,18 @@
-def solution(maps):
-    answer = 0
-    n_len = len(maps)
-    m_len = len(maps[0])
+class MyMatrix:
+    def __init__(self, value: int) -> None:
+        self.base_value = value
+        self.mat = [[value] * value] * value
+        a = 1
+        for i in range(1, value - a):
+            for j in range(i, value - a + 1):
+                self.mat[j][i] *= value
+            a += 1
 
-    if not maps[n_len - 2][m_len - 1] or not maps[n_len - 1][m_len - 2]:
-        return -1
+    def print(self) -> None:
+        for i in self.mat:
+            print(i)
 
-    return answer
+
+my_mat = MyMatrix(5)
+
+my_mat.print()
