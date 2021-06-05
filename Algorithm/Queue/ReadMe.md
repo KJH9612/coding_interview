@@ -49,6 +49,9 @@
     <summary>Ring Buffer</summary>
 
 ![Ring_Buffer](https://upload.wikimedia.org/wikipedia/commons/f/fd/Circular_Buffer_Animation.gif)
+
+### [Circular_Queue](./Circular_Queue) 구현 내용
+
 #### 설명
 > 배열의 맨 끝의 원소와 맨 앞의 원소가 연결되는 자료구조 \
 > Dequeue 할 때 원소를 옮기지 않는 큐 \
