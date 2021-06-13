@@ -12,3 +12,5 @@ def evalPostfix(expr):
             elif token == '/': stk.push(val1 / val2)
         else:
             stk.push(float(token))
+
+    return stk.pop()

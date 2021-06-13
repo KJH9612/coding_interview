@@ -31,4 +31,6 @@
 
 #### 응용
 > - [괄호검사](./CheckParentheses.py)
-> - [후위표기연산(진행중)](./CheckPostfix.py)
+> - [중위표기 -> 후위표기](./CheckPostfix.py)
+> - [후위표기 계산](./CalPostfix.py)
+> - [미로찾기(진행중)](./NavMaze.py)
